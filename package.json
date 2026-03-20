@@ -1,0 +1,9 @@
+{
+  "name": "aeron-corp",
+  "version": "1.0.0",
+  "description": "AERON Corp. — International Consulting, Analytics & Logistics",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000"
+  }
+}
