@@ -55,10 +55,6 @@ body {
   );
 }
 
-/* ═══════════════════════════════════
-   NAVIGATION
-   ═══════════════════════════════════ */
-
 nav {
   position: fixed;
   top: 0;
@@ -183,10 +179,6 @@ nav.dark-mode .nav-links a::after {
   width: 100%;
 }
 
-/* ═══════════════════════════════════
-   LANGUAGE DROPDOWN
-   ═══════════════════════════════════ */
-
 .lang-dropdown-wrap {
   position: relative;
 }
@@ -236,11 +228,6 @@ nav.dark-mode .lang-toggle.open {
   opacity: 0.6;
 }
 
-.lang-current-flag {
-  font-size: 15px;
-  line-height: 1;
-}
-
 .lang-current-code {
   font-size: 12px;
   letter-spacing: 1.2px;
@@ -257,8 +244,6 @@ nav.dark-mode .lang-toggle.open {
 .lang-toggle.open .lang-chevron {
   transform: rotate(180deg);
 }
-
-/* Dropdown panel */
 
 .lang-dropdown {
   position: absolute;
@@ -300,8 +285,6 @@ nav.dark-mode .lang-dropdown {
     0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Option items */
-
 .lang-option {
   display: flex;
   align-items: center;
@@ -319,12 +302,6 @@ nav.dark-mode .lang-dropdown {
   text-align: left;
 }
 
-.lang-option-flag {
-  font-size: 18px;
-  line-height: 1;
-  flex-shrink: 0;
-}
-
 .lang-option-label {
   flex: 1;
 }
@@ -336,7 +313,6 @@ nav.dark-mode .lang-dropdown {
   opacity: 0.4;
 }
 
-/* Light mode options */
 nav.light-mode .lang-option {
   color: var(--text-body);
 }
@@ -355,7 +331,6 @@ nav.light-mode .lang-option.active .lang-option-code {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Dark mode options */
 nav.dark-mode .lang-option {
   color: rgba(255, 255, 255, 0.75);
 }
@@ -400,10 +375,6 @@ nav.dark-mode .mobile-toggle span {
   background: #fff;
 }
 
-/* ═══════════════════════════════════
-   SECTIONS — SHARED
-   ═══════════════════════════════════ */
-
 section {
   position: relative;
 }
@@ -442,10 +413,6 @@ section {
   background: var(--gold);
   margin-top: 24px;
 }
-
-/* ═══════════════════════════════════
-   HERO
-   ═══════════════════════════════════ */
 
 .hero {
   min-height: 100vh;
@@ -512,9 +479,6 @@ section {
   }
 }
 
-/* ═══════════════════════════════════
-   SERVICES
-   ═══════════════════════════════════ */
 
 .services-section .section-header h2 {
   color: var(--navy);
@@ -592,10 +556,6 @@ section {
   line-height: 1.8;
 }
 
-/* ═══════════════════════════════════
-   GEOGRAPHY
-   ═══════════════════════════════════ */
-
 .geo-section .section-header h2 {
   color: var(--white);
 }
@@ -643,10 +603,6 @@ section {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.9;
 }
-
-/* ═══════════════════════════════════
-   EXPERTISE / SPECIALTIES
-   ═══════════════════════════════════ */
 
 .spec-section .section-header h2 {
   color: var(--white);
@@ -758,10 +714,6 @@ section {
   letter-spacing: 0.3px;
 }
 
-/* ═══════════════════════════════════
-   FOOTER
-   ═══════════════════════════════════ */
-
 footer {
   padding: 80px 60px 40px;
   position: relative;
@@ -839,10 +791,6 @@ footer {
   letter-spacing: 0.5px;
 }
 
-/* ═══════════════════════════════════
-   ANIMATIONS
-   ═══════════════════════════════════ */
-
 .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -859,9 +807,6 @@ footer {
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
-/* ═══════════════════════════════════
-   TABLET (≤1024px)
-   ═══════════════════════════════════ */
 
 @media (max-width: 1024px) {
   .services-grid,
@@ -885,10 +830,6 @@ footer {
     padding: 0 32px;
   }
 }
-
-/* ═══════════════════════════════════
-   MOBILE (≤768px)
-   ═══════════════════════════════════ */
 
 @media (max-width: 768px) {
   .services-grid,
@@ -1018,7 +959,6 @@ footer {
     margin-bottom: 48px;
   }
 
-  /* Language dropdown compact on mobile */
   .lang-globe {
     display: none;
   }
@@ -1032,19 +972,11 @@ footer {
     gap: 6px;
   }
 
-  .lang-current-flag {
-    font-size: 18px;
-  }
-
   .lang-dropdown {
     right: -16px;
     min-width: 180px;
   }
 }
-
-/* ═══════════════════════════════════
-   SMALL PHONES (≤480px)
-   ═══════════════════════════════════ */
 
 @media (max-width: 480px) {
   .hero {

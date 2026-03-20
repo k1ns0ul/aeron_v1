@@ -224,43 +224,35 @@ const translations = {
 };
 
 const langMeta = {
-  en: { label: "English", flag: "🇬🇧" },
-  zh: { label: "中文", flag: "🇨🇳" },
-  es: { label: "Español", flag: "🇪🇸" },
-  fr: { label: "Français", flag: "🇫🇷" },
-  pt: { label: "Português", flag: "🇧🇷" },
-  sw: { label: "Kiswahili", flag: "🇹🇿" },
+  en: { label: "English" },
+  zh: { label: "中文" },
+  es: { label: "Español" },
+  fr: { label: "Français" },
+  pt: { label: "Português" },
+  sw: { label: "Kiswahili" },
 };
 
 let currentLang = "en";
 
-/* ── Language Switcher ── */
-
 const langToggle = document.getElementById("langToggle");
 const langDropdown = document.getElementById("langDropdown");
 const langCurrentCode = document.getElementById("langCurrentCode");
-const langCurrentFlag = document.getElementById("langCurrentFlag");
 
 function setLang(lang) {
   currentLang = lang;
 
-  /* CJK font class */
   if (lang === "zh") {
     document.documentElement.classList.add("zh");
   } else {
     document.documentElement.classList.remove("zh");
   }
 
-  /* Update dropdown button display */
   langCurrentCode.textContent = lang.toUpperCase();
-  langCurrentFlag.textContent = langMeta[lang].flag;
 
-  /* Mark active item */
   document.querySelectorAll(".lang-option").forEach((opt) => {
     opt.classList.toggle("active", opt.dataset.lang === lang);
   });
 
-  /* Translate */
   const t = translations[lang];
   if (!t) return;
 
@@ -269,7 +261,6 @@ function setLang(lang) {
     if (t[key]) el.textContent = t[key];
   });
 
-  /* Close dropdown */
   langDropdown.classList.remove("open");
   langToggle.classList.remove("open");
 }
@@ -292,7 +283,6 @@ document.addEventListener("click", () => {
   langToggle.classList.remove("open");
 });
 
-/* ── Navbar scroll ── */
 
 const navbar = document.getElementById("navbar");
 
@@ -316,7 +306,6 @@ function updateNav() {
 window.addEventListener("scroll", updateNav, { passive: true });
 updateNav();
 
-/* ── Mobile menu ── */
 
 document.getElementById("mobileToggle").addEventListener("click", () => {
   document.getElementById("navLinks").classList.toggle("open");
@@ -328,7 +317,6 @@ document.querySelectorAll(".nav-links a").forEach((a) => {
   });
 });
 
-/* ── Scroll reveal ── */
 
 const observer = new IntersectionObserver(
   (entries) => {
