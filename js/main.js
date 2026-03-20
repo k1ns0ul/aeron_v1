@@ -73,23 +73,194 @@ const translations = {
     footer_nav: "导航",
     footer_contact: "联系我们",
   },
+  es: {
+    nav_services: "Servicios",
+    nav_geography: "Geografía",
+    nav_expertise: "Especialización",
+    nav_contact: "Contacto",
+    hero_title: "Consultoría Internacional, Analítica y Logística",
+    hero_text: "Somos una empresa internacional de consultoría y logística con experiencia en tres continentes: Asia, África y América Latina. Nuestros clientes reciben una gama completa de servicios — desde consultoría estratégica e investigación analítica hasta gestión logística y despacho aduanero.",
+    services_title: "Lo Que Ofrecemos",
+    s1_title: "Consultoría Empresarial",
+    s1_text: "Brindamos consultoría a empresas de todos los tamaños, ayudándolas a ingresar a nuevos mercados, optimizar procesos y adaptarse a las condiciones locales en Asia, África y América Latina. Nuestros expertos tienen experiencia práctica trabajando en regiones con entornos empresariales complejos.",
+    s2_title: "Investigación Analítica",
+    s2_text: "Análisis de mercado en profundidad, evaluaciones de atractivo de inversión y estudios del panorama competitivo y comportamiento del consumidor. Proporcionamos datos objetivos y pronósticos necesarios para tomar decisiones estratégicas en ubicaciones inestables y de alto riesgo.",
+    s3_title: "Logística y Operaciones Aduaneras",
+    s3_text: "Organizamos transporte de cualquier complejidad, incluyendo rutas multimodales, y brindamos soporte completo de carga — desde la selección de transporte hasta el despacho aduanero. Comprendemos las particularidades de los requisitos regulatorios no estándar y ayudamos a minimizar retrasos.",
+    geo_title: "Tres Continentes — Oportunidades Ilimitadas",
+    geo_asia_title: "Asia",
+    geo_asia_text: "Desde el Medio Oriente hasta el Sudeste Asiático — experiencia profunda en mercados diversos y en rápida evolución en todo el continente.",
+    geo_africa_title: "África",
+    geo_africa_text: "Países del Norte, Oeste y Este de África — navegando paisajes regulatorios complejos y oportunidades emergentes.",
+    geo_latam_title: "América Latina",
+    geo_latam_text: "Desde México hasta Argentina — cobertura integral de las economías más dinámicas del continente.",
+    geo_desc: "No solo operamos en estos territorios; comprendemos sus matices culturales, económicos y políticos. Esto permite a nuestros clientes avanzar con confianza, incluso en los entornos más impredecibles.",
+    spec_title: "Condiciones Extremas y Altos Riesgos Son Nuestro Elemento",
+    spec_subtitle: "Nos especializamos en proyectos que otras empresas evitan. Un área clave de nuestro enfoque es la ejecución de proyectos en entornos extremos y territorios de alto riesgo. Si su negocio requiere presencia en regiones desafiantes, asumimos todas las tareas operativas y analíticas.",
+    sp1_title: "Zonas de Conflicto y Posconflicto",
+    sp1_text: "Operaciones en zonas de conflicto y áreas de reconstrucción posconflicto, garantizando continuidad y seguridad.",
+    sp2_title: "Infraestructura Subdesarrollada",
+    sp2_text: "Logística en regiones con infraestructura limitada y climas severos, entregando resultados donde otros no pueden.",
+    sp3_title: "Inestabilidad Política",
+    sp3_text: "Consultoría en países con situaciones políticas inestables, ayudando a los clientes a navegar la incertidumbre con confianza.",
+    sp4_title: "Seguridad de Personal y Carga",
+    sp4_text: "Garantizando la seguridad del personal y la carga en todas las etapas de las operaciones, desde la planificación hasta la ejecución.",
+    spec_quote: "Nuestra experiencia nos permite minimizar riesgos y lograr resultados donde los enfoques estándar fallan.",
+    footer_desc: "Consultoría Internacional, Analítica y Logística en Asia, África y América Latina. Operaciones en Entornos Extremos y Zonas de Alto Riesgo.",
+    footer_nav: "Navegación",
+    footer_contact: "Contáctenos",
+  },
+  fr: {
+    nav_services: "Services",
+    nav_geography: "Géographie",
+    nav_expertise: "Expertise",
+    nav_contact: "Contact",
+    hero_title: "Conseil International, Analytique et Logistique",
+    hero_text: "Nous sommes une entreprise internationale de conseil et de logistique avec une expertise sur trois continents : Asie, Afrique et Amérique latine. Nos clients bénéficient d'une gamme complète de services — du conseil stratégique et de la recherche analytique à la gestion logistique et au dédouanement.",
+    services_title: "Ce Que Nous Offrons",
+    s1_title: "Conseil aux Entreprises",
+    s1_text: "Nous fournissons des conseils aux entreprises de toutes tailles, les aidant à pénétrer de nouveaux marchés, à optimiser les processus et à s'adapter aux conditions locales en Asie, en Afrique et en Amérique latine. Nos experts ont une expérience pratique dans des régions aux environnements commerciaux complexes.",
+    s2_title: "Recherche Analytique",
+    s2_text: "Analyse approfondie des marchés, évaluations de l'attractivité des investissements et études du paysage concurrentiel et du comportement des consommateurs. Nous fournissons des données objectives et des prévisions nécessaires à la prise de décisions stratégiques dans des zones instables et à haut risque.",
+    s3_title: "Logistique et Opérations Douanières",
+    s3_text: "Nous organisons des transports de toute complexité, y compris des itinéraires multimodaux, et assurons un accompagnement complet du fret — de la sélection du transport au dédouanement. Nous comprenons les spécificités des exigences réglementaires non standard et aidons à minimiser les retards.",
+    geo_title: "Trois Continents — Des Opportunités Illimitées",
+    geo_asia_title: "Asie",
+    geo_asia_text: "Du Moyen-Orient à l'Asie du Sud-Est — une expertise approfondie dans des marchés diversifiés et en rapide évolution à travers le continent.",
+    geo_africa_title: "Afrique",
+    geo_africa_text: "Pays d'Afrique du Nord, de l'Ouest et de l'Est — navigation dans des paysages réglementaires complexes et des opportunités émergentes.",
+    geo_latam_title: "Amérique Latine",
+    geo_latam_text: "Du Mexique à l'Argentine — couverture complète des économies les plus dynamiques du continent.",
+    geo_desc: "Nous n'opérons pas seulement dans ces territoires ; nous comprenons leurs nuances culturelles, économiques et politiques. Cela permet à nos clients d'avancer en toute confiance, même dans les environnements les plus imprévisibles.",
+    spec_title: "Conditions Extrêmes et Hauts Risques Sont Notre Élément",
+    spec_subtitle: "Nous nous spécialisons dans les projets que d'autres entreprises évitent. Un domaine clé de notre activité est l'exécution de projets dans des environnements extrêmes et des territoires à haut risque. Si votre entreprise nécessite une présence dans des régions difficiles, nous prenons en charge toutes les tâches opérationnelles et analytiques.",
+    sp1_title: "Zones de Conflit et Post-Conflit",
+    sp1_text: "Opérations dans les zones de conflit et les zones de reconstruction post-conflit, assurant continuité et sécurité.",
+    sp2_title: "Infrastructure Sous-Développée",
+    sp2_text: "Logistique dans des régions à infrastructure limitée et aux climats rigoureux, obtenant des résultats là où d'autres ne peuvent pas.",
+    sp3_title: "Instabilité Politique",
+    sp3_text: "Conseil dans des pays à situation politique instable, aidant les clients à naviguer dans l'incertitude avec confiance.",
+    sp4_title: "Sécurité du Personnel et du Fret",
+    sp4_text: "Assurer la sécurité du personnel et du fret à toutes les étapes des opérations, de la planification à l'exécution.",
+    spec_quote: "Notre expérience nous permet de minimiser les risques et d'obtenir des résultats là où les approches standard échouent.",
+    footer_desc: "Conseil International, Analytique et Logistique en Asie, Afrique et Amérique Latine. Opérations en Environnements Extrêmes et Zones à Haut Risque.",
+    footer_nav: "Navigation",
+    footer_contact: "Contactez-Nous",
+  },
+  pt: {
+    nav_services: "Serviços",
+    nav_geography: "Geografia",
+    nav_expertise: "Especialização",
+    nav_contact: "Contato",
+    hero_title: "Consultoria Internacional, Análise e Logística",
+    hero_text: "Somos uma empresa internacional de consultoria e logística com expertise em três continentes: Ásia, África e América Latina. Nossos clientes recebem uma gama completa de serviços — desde consultoria estratégica e pesquisa analítica até gestão logística e desembaraço aduaneiro.",
+    services_title: "O Que Oferecemos",
+    s1_title: "Consultoria Empresarial",
+    s1_text: "Fornecemos consultoria para empresas de todos os tamanhos, ajudando-as a entrar em novos mercados, otimizar processos e se adaptar às condições locais na Ásia, África e América Latina. Nossos especialistas têm experiência prática em regiões com ambientes de negócios complexos.",
+    s2_title: "Pesquisa Analítica",
+    s2_text: "Análise aprofundada de mercado, avaliações de atratividade de investimento e estudos do cenário competitivo e comportamento do consumidor. Fornecemos dados objetivos e previsões necessárias para tomar decisões estratégicas em locais instáveis e de alto risco.",
+    s3_title: "Logística e Operações Aduaneiras",
+    s3_text: "Organizamos transporte de qualquer complexidade, incluindo rotas multimodais, e fornecemos suporte completo de carga — da seleção de transporte ao desembaraço aduaneiro. Compreendemos as especificidades de requisitos regulatórios não padronizados e ajudamos a minimizar atrasos.",
+    geo_title: "Três Continentes — Oportunidades Ilimitadas",
+    geo_asia_title: "Ásia",
+    geo_asia_text: "Do Oriente Médio ao Sudeste Asiático — expertise profunda em mercados diversificados e em rápida evolução em todo o continente.",
+    geo_africa_title: "África",
+    geo_africa_text: "Países do Norte, Oeste e Leste da África — navegando paisagens regulatórias complexas e oportunidades emergentes.",
+    geo_latam_title: "América Latina",
+    geo_latam_text: "Do México à Argentina — cobertura abrangente das economias mais dinâmicas do continente.",
+    geo_desc: "Não apenas operamos nesses territórios; compreendemos suas nuances culturais, econômicas e políticas. Isso permite que nossos clientes avancem com confiança, mesmo nos ambientes mais imprevisíveis.",
+    spec_title: "Condições Extremas e Altos Riscos São Nosso Elemento",
+    spec_subtitle: "Nos especializamos em projetos que outras empresas evitam. Uma área-chave do nosso foco é a execução de projetos em ambientes extremos e territórios de alto risco. Se seu negócio requer presença em regiões desafiadoras, assumimos todas as tarefas operacionais e analíticas.",
+    sp1_title: "Zonas de Conflito e Pós-Conflito",
+    sp1_text: "Operações em zonas de conflito e áreas de reconstrução pós-conflito, garantindo continuidade e segurança.",
+    sp2_title: "Infraestrutura Subdesenvolvida",
+    sp2_text: "Logística em regiões com infraestrutura limitada e climas severos, entregando resultados onde outros não conseguem.",
+    sp3_title: "Instabilidade Política",
+    sp3_text: "Consultoria em países com situações políticas instáveis, ajudando clientes a navegar a incerteza com confiança.",
+    sp4_title: "Segurança de Pessoal e Carga",
+    sp4_text: "Garantindo a segurança do pessoal e da carga em todas as etapas das operações, do planejamento à execução.",
+    spec_quote: "Nossa experiência nos permite minimizar riscos e alcançar resultados onde abordagens padrão falham.",
+    footer_desc: "Consultoria Internacional, Análise e Logística na Ásia, África e América Latina. Operações em Ambientes Extremos e Zonas de Alto Risco.",
+    footer_nav: "Navegação",
+    footer_contact: "Fale Conosco",
+  },
+  sw: {
+    nav_services: "Huduma",
+    nav_geography: "Jiografia",
+    nav_expertise: "Utaalamu",
+    nav_contact: "Wasiliana",
+    hero_title: "Ushauri wa Kimataifa, Uchambuzi na Usafirishaji",
+    hero_text: "Sisi ni kampuni ya kimataifa ya ushauri na usafirishaji yenye utaalamu katika mabara matatu: Asia, Afrika, na Amerika ya Kusini. Wateja wetu wanapata huduma kamili — kutoka ushauri wa kimkakati na utafiti wa uchambuzi hadi usimamizi wa usafirishaji na utoaji wa forodha.",
+    services_title: "Tunachotoa",
+    s1_title: "Ushauri wa Biashara",
+    s1_text: "Tunatoa ushauri kwa biashara za ukubwa wote, tukizisaidia kuingia kwenye masoko mapya, kuboresha michakato na kuzoea hali za ndani za Asia, Afrika na Amerika ya Kusini. Wataalamu wetu wana uzoefu wa vitendo wa kufanya kazi katika maeneo yenye mazingira magumu ya biashara.",
+    s2_title: "Utafiti wa Uchambuzi",
+    s2_text: "Uchambuzi wa kina wa masoko, tathmini za mvuto wa uwekezaji, na masomo ya mazingira ya ushindani na tabia za watumiaji. Tunatoa data ya lengo na utabiri unaohitajika kwa kufanya maamuzi ya kimkakati katika maeneo yasiyo na utulivu na yenye hatari kubwa.",
+    s3_title: "Usafirishaji na Shughuli za Forodha",
+    s3_text: "Tunapanga usafirishaji wa ugumu wowote, ikiwa ni pamoja na njia za aina nyingi, na kutoa msaada kamili wa mizigo — kutoka kuchagua usafiri hadi utoaji wa forodha. Tunaelewa mahususi ya kushughulika na mahitaji yasiyo ya kawaida ya udhibiti na kusaidia kupunguza ucheleweshaji.",
+    geo_title: "Mabara Matatu — Fursa Zisizo na Kikomo",
+    geo_asia_title: "Asia",
+    geo_asia_text: "Kutoka Mashariki ya Kati hadi Asia ya Kusini-mashariki — utaalamu wa kina katika masoko tofauti na yanayobadilika kwa kasi katika bara zima.",
+    geo_africa_title: "Afrika",
+    geo_africa_text: "Nchi za Afrika ya Kaskazini, Magharibi, na Mashariki — kusogea katika mazingira magumu ya udhibiti na fursa zinazoibuka.",
+    geo_latam_title: "Amerika ya Kusini",
+    geo_latam_text: "Kutoka Meksiko hadi Argentina — chanjo kamili ya uchumi wenye nguvu zaidi wa bara.",
+    geo_desc: "Hatufanyi kazi tu katika maeneo haya; tunaelewa tofauti zao za kitamaduni, kiuchumi, na kisiasa. Hii inaruhusu wateja wetu kusonga mbele kwa ujasiri, hata katika mazingira yasiyotabirika zaidi.",
+    spec_title: "Hali Ngumu na Hatari Kubwa Ni Uwanja Wetu",
+    spec_subtitle: "Tunabobea katika miradi ambayo kampuni nyingine zinaepuka. Eneo muhimu la umakini wetu ni kutekeleza miradi katika mazingira magumu na maeneo yenye hatari kubwa. Ikiwa biashara yako inahitaji kuwepo katika maeneo yenye changamoto, tunachukua kazi zote za uendeshaji na uchambuzi.",
+    sp1_title: "Maeneo ya Migogoro na Baada ya Migogoro",
+    sp1_text: "Shughuli katika maeneo ya migogoro na maeneo ya ujenzi upya baada ya migogoro, kuhakikisha mwendelezo na usalama.",
+    sp2_title: "Miundombinu Isiyoendelea",
+    sp2_text: "Usafirishaji katika maeneo yenye miundombinu finyu na hali ya hewa kali, kutoa matokeo ambapo wengine hawawezi.",
+    sp3_title: "Kutokuwa na Utulivu wa Kisiasa",
+    sp3_text: "Ushauri katika nchi zenye hali za kisiasa zisizo na utulivu, kusaidia wateja kusogea katika kutokuwa na uhakika kwa ujasiri.",
+    sp4_title: "Usalama wa Wafanyakazi na Mizigo",
+    sp4_text: "Kuhakikisha usalama wa wafanyakazi na mizigo katika hatua zote za shughuli, kutoka kupanga hadi kutekeleza.",
+    spec_quote: "Uzoefu wetu unatuwezesha kupunguza hatari na kufikia matokeo ambapo mbinu za kawaida zinashindwa.",
+    footer_desc: "Ushauri wa Kimataifa, Uchambuzi, na Usafirishaji katika Asia, Afrika na Amerika ya Kusini. Shughuli katika Mazingira Magumu na Maeneo Yenye Hatari Kubwa.",
+    footer_nav: "Urambazaji",
+    footer_contact: "Wasiliana Nasi",
+  },
+};
+
+const langMeta = {
+  en: { label: "English", flag: "🇬🇧" },
+  zh: { label: "中文", flag: "🇨🇳" },
+  es: { label: "Español", flag: "🇪🇸" },
+  fr: { label: "Français", flag: "🇫🇷" },
+  pt: { label: "Português", flag: "🇧🇷" },
+  sw: { label: "Kiswahili", flag: "🇹🇿" },
 };
 
 let currentLang = "en";
 
+/* ── Language Switcher ── */
+
+const langToggle = document.getElementById("langToggle");
+const langDropdown = document.getElementById("langDropdown");
+const langCurrentCode = document.getElementById("langCurrentCode");
+const langCurrentFlag = document.getElementById("langCurrentFlag");
+
 function setLang(lang) {
   currentLang = lang;
 
+  /* CJK font class */
   if (lang === "zh") {
     document.documentElement.classList.add("zh");
   } else {
     document.documentElement.classList.remove("zh");
   }
 
-  document.querySelectorAll(".lang-btn").forEach((b) => {
-    b.classList.toggle("active", b.dataset.lang === lang);
+  /* Update dropdown button display */
+  langCurrentCode.textContent = lang.toUpperCase();
+  langCurrentFlag.textContent = langMeta[lang].flag;
+
+  /* Mark active item */
+  document.querySelectorAll(".lang-option").forEach((opt) => {
+    opt.classList.toggle("active", opt.dataset.lang === lang);
   });
 
+  /* Translate */
   const t = translations[lang];
   if (!t) return;
 
@@ -97,11 +268,31 @@ function setLang(lang) {
     const key = el.dataset.i18n;
     if (t[key]) el.textContent = t[key];
   });
+
+  /* Close dropdown */
+  langDropdown.classList.remove("open");
+  langToggle.classList.remove("open");
 }
 
-document.querySelectorAll(".lang-btn").forEach((btn) => {
-  btn.addEventListener("click", () => setLang(btn.dataset.lang));
+langToggle.addEventListener("click", (e) => {
+  e.stopPropagation();
+  const isOpen = langDropdown.classList.toggle("open");
+  langToggle.classList.toggle("open", isOpen);
 });
+
+document.querySelectorAll(".lang-option").forEach((opt) => {
+  opt.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setLang(opt.dataset.lang);
+  });
+});
+
+document.addEventListener("click", () => {
+  langDropdown.classList.remove("open");
+  langToggle.classList.remove("open");
+});
+
+/* ── Navbar scroll ── */
 
 const navbar = document.getElementById("navbar");
 
@@ -125,6 +316,8 @@ function updateNav() {
 window.addEventListener("scroll", updateNav, { passive: true });
 updateNav();
 
+/* ── Mobile menu ── */
+
 document.getElementById("mobileToggle").addEventListener("click", () => {
   document.getElementById("navLinks").classList.toggle("open");
 });
@@ -134,6 +327,8 @@ document.querySelectorAll(".nav-links a").forEach((a) => {
     document.getElementById("navLinks").classList.remove("open");
   });
 });
+
+/* ── Scroll reveal ── */
 
 const observer = new IntersectionObserver(
   (entries) => {
