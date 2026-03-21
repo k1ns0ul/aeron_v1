@@ -444,7 +444,7 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 120px 40px 80px;
+  padding: 88px 40px 48px;
 }
 
 .hero-content {
@@ -452,9 +452,9 @@ section {
 }
 
 .hero-logo {
-  width: 180px;
+  width: 160px;
   height: auto;
-  margin-bottom: 40px;
+  margin-bottom: 28px;
   opacity: 0;
   animation: fadeUp 1s 0.2s var(--bez) forwards;
 }
@@ -463,7 +463,7 @@ section {
   width: 60px;
   height: 1.5px;
   background: var(--navy);
-  margin: 0 auto 40px;
+  margin: 0 auto 28px;
   opacity: 0;
   animation: fadeUp 1s 0.4s var(--bez) forwards;
 }
@@ -474,7 +474,7 @@ section {
   font-weight: 600;
   color: var(--navy);
   line-height: 1.25;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   letter-spacing: -0.5px;
   opacity: 0;
   animation: fadeUp 1s 0.5s var(--bez) forwards;
@@ -491,12 +491,12 @@ section {
 }
 
 .hero p + p {
-  margin-top: 16px;
+  margin-top: 12px;
   animation-delay: 0.85s;
 }
 
 .hero-slogan {
-  margin-top: 28px;
+  margin-top: 20px;
   max-width: 740px;
   margin-left: auto;
   margin-right: auto;
@@ -509,7 +509,7 @@ section {
   width: 40px;
   height: 1px;
   background: var(--gold);
-  margin: 0 auto 24px;
+  margin: 0 auto 18px;
 }
 
 .hero-slogan p {
