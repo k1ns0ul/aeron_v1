@@ -497,7 +497,7 @@ section {
 
 .hero-slogan {
   margin-top: 48px;
-  max-width: 640px;
+  max-width: 740px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -514,12 +514,12 @@ section {
 
 .hero-slogan p {
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(15px, 1.6vw, 17px);
+  font-size: clamp(18px, 2.2vw, 24px);
   font-style: italic;
   font-weight: 500;
-  color: var(--text-light);
-  line-height: 1.9;
-  letter-spacing: 0.3px;
+  color: var(--text-body);
+  line-height: 1.8;
+  letter-spacing: 0.2px;
   opacity: 1;
   animation: none;
 }
